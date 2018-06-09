@@ -1,0 +1,221 @@
+#main{
+    width:1660px;
+    height:2000px;
+    margin:auto;
+}
+/* 网页 主体 最外层*/
+#header{
+    width:1170px;
+    height:120px;
+    margin:auto;
+    margin-top:20px;
+    padding-top:20px;
+}
+/* 头部样式 */
+#header>a.aL{
+    display:inline-block;
+    width:200px;
+    height:55px;
+    text-align:center;
+    line-height:55px;
+    font-size:35px;
+    color:#C7E5DD;
+}
+#search{
+    width:400px;
+    height:35px;
+    border:1px solid #DAB9D8;
+    margin-top:12px;
+    margin-left:60px;
+}
+#in-search{
+    width:350px;
+    height:30px;
+    border:none;
+    outline:none;
+}
+#btn{
+    width:40px;
+    height:37px;
+    margin-top:12px;
+}
+#btn>a{
+    display:inline-block;
+    width:40px;
+    height:37px;
+}
+#btn>a>img{
+    width:40px;
+    height:37px;
+}
+ul.Logo{
+    margin-right:80px;
+}
+ul.Logo>li{
+    display: inline-block;
+    width:50px;
+    height:10px;
+    margin-left:10px;
+    position:relative;
+    top:25px;
+}
+/* 展示图*/
+#logo-img{
+    width:1170px;
+    height:400px;
+    margin:auto;
+}
+#logo-img>img{
+    width:1170px;
+    height:400px;
+}
+/* 产品中心布局 */
+#product{
+    width:1170px;
+    height:1080px;
+    margin:auto;
+    margin-top:30px;
+}
+#title{
+    width:1170px;
+    height:45px;
+    background-image:linear-gradient(to bottom,#CBCBC4 0%,#6F7DBC 100%);
+    text-align:left;
+    line-height:45px;
+    color:#F9BE08;
+    font-weight:bold;
+}
+#title>span{
+    padding-left:20px;
+}
+ul.computer{
+    /* width:900px;
+    height:1080px;   */
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+ul.computer>li.c1{
+    width:230px;
+    height:320px;
+    border:1px solid #CDCBBE;
+    margin:30px 10px 0px;
+    position:relative;
+}
+ul.computer>li.c1>a>img{
+    width:170px;
+    height:170px;
+    position: absolute;
+    left:30px;
+    transition:all linear 0.4s ;
+}
+ul.computer>li.c1>a>img:hover{
+    transform: scale(1.2);
+}
+p.p1{
+    position: absolute;
+    bottom:70px;
+    left:10px; 
+}
+p.p2{
+    font-size:17px;
+    font-weight:bold; 
+    position: absolute;
+    top:150px;
+    left:10px; 
+    color:#0aa1ed;
+}
+ul.computer>li>div>span.reduce{
+    display:inline-block;
+    font-size:32px;
+    width:24px;
+    height:24px;
+    line-height:24px;
+    text-align:center;
+    color:#fff;
+    cursor:pointer;
+    background:linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+    vertical-align:top;
+    position: absolute;
+    bottom:28px;
+    left:20px;
+}
+ul.computer>li>div>span.add{
+    display:inline-block;
+    font-size:32px;
+    width:24px;
+    height:24px;
+    line-height:24px;
+    text-align:center;
+    color:#fff;
+    cursor:pointer;
+    background:linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+    vertical-align:top;
+    position: absolute;
+    bottom:28px;
+    left:75px;
+}
+ul.computer>li>div>span:hover{
+    background:linear-gradient(to bottom,#bbb,#b3b3b3);
+}
+ul.computer>li>div>input{
+    width:25px;
+    height:24px;
+    box-sizing:border-box;
+    border:none;
+    text-align:center;
+    outline:none;
+    margin:0 3px;
+    position: absolute;;
+    bottom:27px;
+    left:43px;
+}
+ul.computer>li>div>a{
+    font:14px simhei;
+    display:inline-block;
+    width:100px;
+    height:32px;
+    line-height:32px;
+    text-align:center;
+    background:linear-gradient(to bottom,#27b1f6,#00a1ed);
+    border-radius:2px;
+    color:#fff;
+    cursor:pointer;
+    position: absolute;;
+    bottom:25px;
+    right:20px; 
+}
+ul.computer>li>div>a:hover{
+    background:linear-gradient(to bottom,#25a7e9,#0998df);
+}
+#title-foot{
+    widows: 1170px;
+    height:45px;
+    background-image:linear-gradient(to top,#fafafa 0%,#CDCDCD 100%);
+    margin-top:25px;
+}
+#title-foot>ul>li{
+    display: inline-block;
+    width:70px;
+    height:30px;
+    border:1px solid grey;
+    text-align:center;
+    line-height:30px; 
+    margin:5px 10px 5px 0px;
+}
+#title-foot>ul>li:hover{
+    background:#3ECBED;
+}
+#title-foot>ul>li>a{
+    color:grey;
+}
+li.current{
+    border-color:#0aa1ed;
+    background:#0aa1ed;
+    color:#fff; 
+}
+li.disabled{
+    color:#bfbfbf;
+    background:#f2f2f2;
+    border:1px solid #bfbfbf;
+}

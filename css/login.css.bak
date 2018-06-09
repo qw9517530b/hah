@@ -1,0 +1,57 @@
+body{
+	width:100%;
+	height:100%;
+	background-image:url(../images/login-back.jpg);
+	background-repeat:no-repeat;
+}
+#l1{
+	background:rgba(0,0,0,0.2);
+	width:300px;
+	height:310px;
+	margin:300px 1000px 500px 800px;
+}
+
+#first td:first-child a{
+	font-size:20px;
+	color:white;
+}
+
+#first td:nth-child(2) a{
+	font-size:8px;
+	color:white;
+}
+#third td input{
+	width:290px;
+	height:40px;
+	background-image:url(../images/yhm.png);
+	background-repeat:no-repeat;
+	background-position:100% 100%;
+	box-sizing:border-box;
+}
+#fourth td input{
+	width:290px;
+	height:40px;
+	background-image:url(../images/mm.png);
+	background-repeat:no-repeat;
+	background-position:100% 100%;
+	box-sizing:border-box;
+}
+
+#fifth td{
+	font-size:17px;
+	color:white;
+}
+#fifth td:nth-child(2){
+	color:white;
+}
+#sixth td input{
+	width:295px;
+	height:40px;
+	background:#0aa1ed;
+	border-radius:20px;
+	font-size:20px;
+}
+#sixth td input:hover{
+	color:white;
+	cursor:pointer;
+}

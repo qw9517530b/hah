@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>about</title>
+</head>
+<link rel="stylesheet" href="css/body.css">
+<link rel="stylesheet" href="css/about.css">
+<body>
+	<iframe src="header.html" frameborder="0" id="header1"></iframe>
+	<div id="about">
+		<h4 class="h4-1">LAST PUBLISHED</h4>
+		<hr class="line-1">
+		<div id="bj">
+			<div>
+				<img src="images/b1.png" alt="">	
+				<div class="first">
+					<p class="p1">WEB DESIGN</p>
+					<h4 class="h4-2">Make your website with best web Tools</h4>
+					<p class="p2">21<sup>st</sup>jun 2016</p>
+					<p class="p3">Bulit using the lasted web tectnologies like html5 ,css3, and jQuery,
+					rest assured Sedna will look smashing on every device under the sun</p>
+					<a href="">read more</a>
+				</div>
+			</div>
+			<div>
+				<img src="images/b2.png" alt="">
+				<div class="first">
+					<p class="p1">WEB DESIGN</p>
+					<h4 class="h4-2">Make your website with best web Tools</h4>
+					<p class="p2">21<sup>st</sup>jun 2016</p>
+					<p class="p3">Bulit using the lasted web tectnologies like html5 ,css3, and jQuery,
+					rest assured Sedna will look smashing on every device under the sun</p>
+					<a href="">read more</a>
+				</div>
+			</div>
+			<div>
+				<img src="images/b3.png" alt="">
+				<div class="first">
+					<p class="p1">WEB DESIGN</p>
+					<h4 class="h4-2">Make your website with best web Tools</h4>
+					<p class="p2">21<sup>st</sup>jun 2016</p>
+					<p class="p3">Bulit using the lasted web tectnologies like html5 ,css3, and jQuery,
+					rest assured Sedna will look smashing on every device under the sun</p>
+					<a href="">read more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<iframe src="footer.html" frameborder="0" id="footer1"></iframe>
+</body>
+</html>

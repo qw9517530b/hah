@@ -1,0 +1,17 @@
+$("#btn").onclick=function(e){
+	e.preventDefault();
+	var uname = $("#uname").val();
+	var upass = $("#upass").val();
+	var email = $("#email").val();
+	var user_uname = $("#name").val();
+	var phone =$("#phone").val();
+	var gender = $("#gender").val();
+	$.ajax({
+		type:"get",
+		url:"Data/register.php",
+		data:{uname:uname,upass:upass,email:email,phone:phone,gender:gender,user_uname:user_uname},
+		success:function(data){
+			console.log(data);
+		}
+	});
+}

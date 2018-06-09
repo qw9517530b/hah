@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/body.css">
+<body>
+	<div id="header">
+		<div id="logo">
+				<div id="left" class="lf">
+					<a href="#"><span><img src="images/Logo.png" alt="">   LAZY FOX</span></a>
+				</div>
+				<div id="DownLoad" class="rf"><a href="">DownLoad</a>
+				</div>
+				<div id="right" class="rf">
+					<ul>
+						<li class="rf"><a href="">CONTACT</a></li>
+						<li class="rf"><a href="">PRODUCT</a></li>
+						<li class="rf"><a href="">INTRO</a></li>
+						<li class="rf"><a href="">ABOUT</a></li>
+						<li class="rf"><a href="">HOME</a></li>
+					</ul>
+				</div>
+		</div>
+	</div>
+	
+</body>
+</html>

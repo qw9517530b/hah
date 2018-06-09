@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>login</title>
+</head>
+	<link rel="stylesheet" href="css/body.css">
+	<link rel="stylesheet" href="css/login.css">
+
+	<!-- <script>
+	function login(){
+		var xhr = Xhr();
+		xhr.onreadystatechange=function(){
+			if(xhr.readyState==4&&xhr.status==200){
+				var result = xhr.responseText;
+				if(result==="0"){
+					alert("登陆失败");
+				}else{
+					alert("登陆成功!");
+				}
+			}
+			
+		}
+		var n = $("uname").value;
+		var p = $("upass").value;
+		xhr.open("get","Data/xiangmu_login.php?uname="+n+"&upass="+p,true);
+		xhr.send(null);
+	}
+	</script> -->
+<body>
+	<div id="l1">
+	<table width="300px" height="340">
+		<tr id="first">
+			<td align="center" colspan="2">用户登录</td>
+		</tr>
+		<tr id="third">
+			<td colspan="2"><input type="text" placeholder="   请输入账号" id="name"></td>
+		</tr>
+		<tr id="fourth">
+			<td colspan="2"><input type="password" placeholder="   请输入密码" id="pass"></td>
+		</tr>
+		<tr id="fifth">
+			<td align="left"><input type="CheckBox">自动登陆</td>
+			<td align="right"><a href="updata.html"></a>忘记密码?</td>
+		</tr>
+		<tr id="sixth">
+			<td colspan="2"><input type="button" value="登陆" id="login"></td>
+		</tr>
+	</table>
+	</div>
+</body>
+<script src="js/jquery.js "></script>
+<script src="js/login.js"></script>
+</html>

@@ -1,0 +1,44 @@
+#about{
+	width:1170px;
+	height:900px;
+	margin:auto;
+}
+h4.h4-1{
+	text-align:center;
+	color:#433b88;
+	font-size:21px;
+}
+hr.line-1{
+	width:100px;
+	/* background:rgb(232,88,137); */
+	background:orange;
+}
+#bj{
+	margin-top:100px;
+	display:flex;
+	justify-Content:space-between;
+}
+div.first{
+	padding:30px;
+}
+p.p1{
+	color:#433b88;
+	padding-bottom:10px;
+	font-weight:bold;
+}
+h4.h4-2{
+	color:#5a5a5a;
+	font-size:25px;
+	padding-bottom:10px;
+}
+p.p2{
+	padding-bottom:10px;
+}
+p.p3{
+	padding-bottom:10px;
+}
+div.first>a{
+	color:#443b88;
+	padding-top:20px;
+	font-weight:bold;
+}

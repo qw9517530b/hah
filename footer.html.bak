@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<link rel="stylesheet" href="css/body.css">
+<link rel="stylesheet" href="css/footer.css">
+<body>
+	<div id="footer">
+		<div>
+			<div id="f-one">
+				<a href="#"><img src="images/Logo_color.png" alt="">   LAZY FOX</a>
+				<p>Built using the lastest web technologies like html5,css3 and jQuery,rest assurd Sedna will look</p>
+				<p>+808080100 +02102115414</p>
+				<p>hehe163@qq.com</p>
+			</div>
+			<div id="f-two">
+				<ul>
+					<li><h3>LEARN MORE</h3></li>
+					<li>About Dolpin</li>
+					<li>Learn Css</li>
+					<li>Meeting Tools</li>
+					<li>Pricing</li>
+				</ul>
+			</div>
+			<div id="f-three">
+				<ul>
+					<li><h3>SUPPORT</h3></li>
+					<li>FAQ</li>
+					<li>Contact US</li>
+					<li>Outlook Plugin</li>
+					<li>Phone Control</li>
+				</ul>
+			</div>
+			<div id="f-four">
+				<ul>
+					<li><h3>ABOUT</h3></li>
+					<li>About US</li>
+					<li>Privat policy</li>
+					<li>Treams</li>
+				</ul>
+			</div>
+			<div id="f-fiv">
+				<ul>
+					<li><h3>LINKS</h3></li>
+					<li>Home</li>
+					<li>About</li>
+					<li>Product</li>
+					<li>Intro</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

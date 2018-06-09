@@ -1,0 +1,58 @@
+#main{
+	width:1660px;
+	height:1200px;
+	margin:auto;
+}
+#contact{
+	width:1170px;
+	height:500px;
+	margin:auto;
+}
+#row{
+	width:780px;	
+	height:380px;
+	background-image:url(../images/newsletter.png);
+	margin:auto;
+}
+#row>div:first-child{
+	width:520px;
+	height:380px;
+	padding:85px 15px;
+	margin:auto;
+}
+#text{
+	width:490px;
+	height:190px;
+}
+h4.h4-1{
+	font-size:24px;
+	color:#433b88;
+	text-align:center;
+	padding-bottom:10px;
+}
+p.p1{
+	padding-bottom:10px;
+	text-align:center;
+}
+#input-search{
+	display:block;
+	width:300px;
+	height:30px;
+	border-radius:30px;
+	margin:auto;
+	outline:none	;
+}
+#in-search{
+	display:inline-block;
+	width:170px;
+	height:40px;
+	color:white;
+	line-height:40px;
+	border-radius:30px;
+	background:rgb(232,88,137);
+	text-align:center;
+	margin-top:25px;
+	margin-left:150px;
+	outline:none;
+	cursor:pointer;
+}

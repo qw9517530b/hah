@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>contact</title>
+</head>
+<link rel="stylesheet" href="css/body.css">
+<link rel="stylesheet" href="css/contact.css">
+<body>
+	<iframe src="header.html" frameborder="0" id="header1"></iframe>
+	<div id="contact">
+		<div id="row">
+			<div>
+				<div id="text">
+					<h4 class="h4-1">SUBSCRIBE NEWSLATTER</h4>
+					<p class="p1">Enter your email address for  our weekly new updata</p>
+					<form action="">
+						<input type="text" class="input-search"
+						placeHolder="Email">
+						<a href="" class="Search">search</a>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<iframe src="footer.html" frameborder="0" id="footer1"></iframe>
+</body>
+</html>

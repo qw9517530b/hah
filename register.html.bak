@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>register</title>
+</head>
+<link rel="stylesheet" href="css/body.css">
+<link rel="stylesheet" href="css/register.css">
+<body>
+	<div id="head">
+		<div>
+			<img src="images/Logo - 副本.png" alt="">
+			<img src="images/Lazy fox.png" alt="">
+		</div>
+	</div>
+	<div id="middle">
+		<div id="wz">
+			<div id="left-pic" class="lf">
+				<img src="images/mockuo.png" alt="">
+			</div>
+			<div id="row">
+				<form action="">
+					<table>
+					<tr>
+						<td>用户名:</td>
+						<td><input type="text" placeHolder="请输入账号" id="uname"></td>
+					</tr>
+					<tr> 
+						<td>密码:</td>
+						<td><input type="password" placeHolder="请输入密码" id="upass"></td>
+					</tr>
+				    <tr>
+						<td>确认密码:</td>
+						<td><input type="password" placeHolder="请确认密码"
+						id="mmyz"></td>
+					</tr>
+					<tr>
+						<td>邮箱:</td>
+						<td><input type="email" placeHolder="请输入邮箱" id="email"></td>
+					</tr>
+					<tr>
+						<td>姓名:</td>
+						<td><input type="text" placeHolder="请输入姓名" id="name"></td>
+					</tr>
+					<tr>
+						<td>手机号:</td>
+						<td><input type="text" placeHolder="请输入手机号" id="phone"></td>
+					</tr>
+				    <tr>
+						<td>性别:</td>
+						<td><select name="sex" id="gender">
+							<option value="1">男</option>
+							<option value="0">女</option>
+						</select></td>
+					</tr>
+					<tr><td colspan="2" align="center"><input type="submit" id="btn"></td></tr>
+					</table>
+				</form>
+			</div>
+		</div>
+	</div>
+	<iframe src="footer.html" frameborder="0" id="footer1"></iframe>
+</body>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/register.js"></script>
+
+</html>	

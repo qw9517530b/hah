@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>index</title>
+</head>
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/body.css">
+<body>
+	<div id="header">
+		<div id="logo">
+			<div id="left" class="lf">
+				<a href="#"><span><img src="images/Logo.png" alt="">   LAZY FOX</span></a>
+			</div>
+			<div id="DownLoad" class="rf"><a href="">DownLoad</a>
+			</div>
+			<div id="right" class="rf">
+				<ul>
+					<li class="rf"><a href="">CONTACT</a></li>
+					<li class="rf"><a href="">PRODUCT</a></li>
+					<li class="rf"><a href="">LOGION</a></li>
+					<li class="rf"><a href="">ABOUT</a></li>
+					<li class="rf"><a href="">HOME</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="middle">
+			<h2>LAZY FOX HTML5 LANDING PAGE</h2>
+			<p>Awesome Stylish Template Pwered By THEMEWAGON</p>
+			<div class="video">
+				<a href="#">DOWNLOAD</a>
+				<a href="#"><span><i></i></span>
+				WATCH TUTORIAL</a>	
+			</div>
+			<div class="foot"><img src="images/mockuo2.png" alt=""></div>
+		</div>
+	</div>
+	<div id="second">
+		<div id="row">
+			<div>
+				<img src="images/2xc.PNG" alt="">
+				<div class="content">
+					<h4 class="H4">EASILY CUTOMISED</h4>
+					<i class="line"></i>
+					<p class="text">Easlly customise Sedna to suit your start up,protfolio or is product.Take advantage of the layered Sketch file and bring your product to file</p>
+				</div>
+			</div>
+			<div>
+				<img src="images/calander.PNG" alt="">
+				<div class="content">
+					<h4 class="H4">MODERM DESICN</h4>
+					<i class="line"></i>
+					<p class="text">Design with modern trends and techniques in mind ,Sedna will help your product stand out in already saturated market</p>
+				</div>
+			</div>
+			<div>
+				<img src="images/book.PNG" alt="">
+				<div class="content">
+					<h4 class="H4">RESPONSIVE DEVELOPMENT</h4>
+					<i class="line"></i>
+					<p class="text">Built using the lasted web technologies like html5.css3,and jQuery rest assured Sedna will look smashing on every device under the sun</p>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<div id="third">
+		<div>
+			<div id="pic-hander" class="lf"><img src="images/hand_phone.png" alt=""></div>
+			<div id="r-text"class="rf">
+				<div>
+					<h2 class="H2">BEST SERVICES</h2>
+					<hr class="line">
+				</div>
+				<div>
+					<div class="text-2 lf">
+						<h4 class="title">RESPONSIVE DEVELOPMENT</h4>
+						<p class="text2">Built using the lastest web technologies like html5,css3
+						and jQuery,rest assurd Sedna will look smashing on every device under the sun</p>
+					</div>
+					<div class="text-2 rf">
+						<h4 class="title">RESPONSIVE DEVELOPMENT</h4>
+						<p class="text2">Built using the lastest web technologies like html5,css3 and jQuery,rest assurd Sedna will look smashing on every device under the sun</p>
+					</div>
+				</div>
+				<div>
+					<div class="text-2 lf">
+						<h4 class="title">RESPONSIVE DEVELOPMENT</h4>
+						<p class="text2">Built using the lastest web technologies like html5,css3 and jQuery,rest assurd Sedna will look smashing on every device under the sun</p>
+					</div>
+					<div class="text-2 rf">
+						<h4 class="title">RESPONSIVE DEVELOPMENT</h4>
+						<p class="text2">Built using the lastest web technologies like html5,css3 and jQuery,rest assurd Sedna will look smashing on every device under the sun</p>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<div id="f-one">
+				<a href="#"><img src="images/Logo_color.png" alt="">   LAZY FOX</a>
+				<p>Built using the lastest web technologies like html5,css3 and jQuery,rest assurd Sedna will look</p>
+				<p>+808080100 +02102115414</p>
+				<p>hehe163@qq.com</p>
+			</div>
+			<div id="f-two">
+				<ul>
+					<li><h3>LEARN MORE</h3></li>
+					<li>About Dolpin</li>
+					<li>Learn Css</li>
+					<li>Meeting Tools</li>
+					<li>Pricing</li>
+				</ul>
+			</div>
+			<div id="f-three">
+				<ul>
+					<li><h3>SUPPORT</h3></li>
+					<li>FAQ</li>
+					<li>Contact US</li>
+					<li>Outlook Plugin</li>
+					<li>Phone Control</li>
+				</ul>
+			</div>
+			<div id="f-four">
+				<ul>
+					<li><h3>ABOUT</h3></li>
+					<li>About US</li>
+					<li>Privat policy</li>
+					<li>Treams</li>
+				</ul>
+			</div>
+			<div id="f-fiv">
+				<ul>
+					<li><h3>LINKS</h3></li>
+					<li>Home</li>
+					<li>About</li>
+					<li>Product</li>
+					<li>Intro</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

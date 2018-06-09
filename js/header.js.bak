@@ -1,0 +1,16 @@
+(function(){
+	$.ajax({
+		type:"get",
+		url:"header.html",
+		success:function(data){
+			var link1 = createElement("link");
+			link1.rel = "styleSheet";
+			link1.style = "css/body.css";
+			var link2 = createElement("link");
+			link2.rel = "styleSheet";
+			link2.style = "css/login.css";
+			document.head.appendChild(link1);
+			document.head.appendChild(link2);
+		}
+	})
+})();

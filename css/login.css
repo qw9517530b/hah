@@ -1,0 +1,56 @@
+body{
+	/*background-image: linear-gradient(to bottom,#315AA5,#247CA7,#559DBF);*/
+	background: url("../images/background.jpg");
+	background-size:cover;
+}
+#l1{
+	/*background:rgba(0,0,0,0.2);*/
+	width:300px;
+	height:350px;
+	margin:auto;
+	margin-top: 300px;
+}
+
+#first td:first-child{
+	font-size:25px;
+	color:rgba(0,0,0,0.4);
+}
+
+#third td input{
+	width:290px;
+	height:40px;
+	background-image:url(../images/yhm.png);
+	background-repeat:no-repeat;
+	background-position:98% 60%;
+	box-sizing:border-box;
+	border-radius: 20px;
+}
+#fourth td input{
+	width:290px;
+	height:40px;
+	background-image:url(../images/mm.png);
+	background-repeat:no-repeat;
+	background-position:98% 60%;
+	box-sizing:border-box;
+	border-radius: 20px;
+}
+
+#fifth td{
+	font-size:17px;
+	color:rgba(0,0,0,0.4);
+}
+#fifth td:nth-child(2){
+	color:rgba(0,0,0,0.4);
+}
+#sixth td input{
+	width:295px;
+	height:40px;
+	background:rgba(0,0,0,0.1);
+	border-radius:20px;
+	font-size:20px;
+
+}
+#sixth td input:hover{
+	color:white;
+	cursor:pointer;
+}

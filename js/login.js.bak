@@ -1,0 +1,13 @@
+$(function(){
+		$("#login").onclick(function(){
+			var $btn = $(this);
+		$.ajax({
+			type:"post",
+			url:"Data/login.php",
+			data:$btn.parent().serialize(),
+			success:function(data){
+				console.log(data);
+			}
+		});
+	});
+})();
